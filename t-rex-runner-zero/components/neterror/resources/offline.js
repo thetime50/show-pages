@@ -949,7 +949,7 @@ Runner.prototype = {
    * @return {boolean}
    */
   isArcadeMode: function() {
-    return document.title == ARCADE_MODE_URL;
+    return true//document.title == ARCADE_MODE_URL;
   },
 
   /**

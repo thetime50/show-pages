@@ -28,6 +28,10 @@ function addWindowEvent(event, fun, useCapture){
 	}
 }
 addWindowEvent("load",function (){
-  console.log("hello")
-  new Runner('.interstitial-wrapper')
+  //new Runner('.interstitial-wrapper')
+
+  //updateIconClass(document.body.classList,Runner.classes.ICON)
+
+  document.body.classList.add('offline');
+  new Runner('.interstitial-wrapper');
 })
